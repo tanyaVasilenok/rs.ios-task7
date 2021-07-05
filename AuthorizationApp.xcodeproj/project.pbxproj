@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA12A7BD2692CCDC00C79657 /* SecureCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA12A7BB2692CCDC00C79657 /* SecureCodeViewController.m */; };
+		AA12A7BE2692CCDC00C79657 /* SecureCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA12A7BC2692CCDC00C79657 /* SecureCodeViewController.xib */; };
+		AA8A693A2691979400B5EE18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A69392691979400B5EE18 /* AppDelegate.m */; };
+		AA8A69452691979500B5EE18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8A69442691979500B5EE18 /* Assets.xcassets */; };
+		AA8A69482691979500B5EE18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8A69462691979500B5EE18 /* LaunchScreen.storyboard */; };
+		AA8A694B2691979500B5EE18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A694A2691979500B5EE18 /* main.m */; };
+		AA8A695626919CC800B5EE18 /* AuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A695426919CC800B5EE18 /* AuthorizationViewController.m */; };
+		AA8A695726919CC800B5EE18 /* AuthorizationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA8A695526919CC800B5EE18 /* AuthorizationViewController.xib */; };
+		AAB3143826936EAC00846D42 /* UIColor+ColorExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB3143726936EAC00846D42 /* UIColor+ColorExtensions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA12A7BA2692CCDC00C79657 /* SecureCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecureCodeViewController.h; sourceTree = "<group>"; };
+		AA12A7BB2692CCDC00C79657 /* SecureCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecureCodeViewController.m; sourceTree = "<group>"; };
+		AA12A7BC2692CCDC00C79657 /* SecureCodeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecureCodeViewController.xib; sourceTree = "<group>"; };
+		AA8A69352691979400B5EE18 /* AuthorizationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthorizationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8A69382691979400B5EE18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA8A69392691979400B5EE18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA8A69442691979500B5EE18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA8A69472691979500B5EE18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA8A69492691979500B5EE18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA8A694A2691979500B5EE18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA8A695326919CC800B5EE18 /* AuthorizationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthorizationViewController.h; sourceTree = "<group>"; };
+		AA8A695426919CC800B5EE18 /* AuthorizationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthorizationViewController.m; sourceTree = "<group>"; };
+		AA8A695526919CC800B5EE18 /* AuthorizationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthorizationViewController.xib; sourceTree = "<group>"; };
+		AAB3143626936EAC00846D42 /* UIColor+ColorExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorExtensions.h"; sourceTree = "<group>"; };
+		AAB3143726936EAC00846D42 /* UIColor+ColorExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorExtensions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA8A69322691979400B5EE18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA8A692C2691979400B5EE18 = {
+			isa = PBXGroup;
+			children = (
+				AA8A69372691979400B5EE18 /* AuthorizationApp */,
+				AA8A69362691979400B5EE18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA8A69362691979400B5EE18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA8A69352691979400B5EE18 /* AuthorizationApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA8A69372691979400B5EE18 /* AuthorizationApp */ = {
+			isa = PBXGroup;
+			children = (
+				AA8A69382691979400B5EE18 /* AppDelegate.h */,
+				AA8A69392691979400B5EE18 /* AppDelegate.m */,
+				AA8A695326919CC800B5EE18 /* AuthorizationViewController.h */,
+				AA8A695426919CC800B5EE18 /* AuthorizationViewController.m */,
+				AA8A695526919CC800B5EE18 /* AuthorizationViewController.xib */,
+				AA12A7BA2692CCDC00C79657 /* SecureCodeViewController.h */,
+				AA12A7BB2692CCDC00C79657 /* SecureCodeViewController.m */,
+				AA12A7BC2692CCDC00C79657 /* SecureCodeViewController.xib */,
+				AAB3143626936EAC00846D42 /* UIColor+ColorExtensions.h */,
+				AAB3143726936EAC00846D42 /* UIColor+ColorExtensions.m */,
+				AA8A69442691979500B5EE18 /* Assets.xcassets */,
+				AA8A69462691979500B5EE18 /* LaunchScreen.storyboard */,
+				AA8A69492691979500B5EE18 /* Info.plist */,
+				AA8A694A2691979500B5EE18 /* main.m */,
+			);
+			path = AuthorizationApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA8A69342691979400B5EE18 /* AuthorizationApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8A694E2691979500B5EE18 /* Build configuration list for PBXNativeTarget "AuthorizationApp" */;
+			buildPhases = (
+				AA8A69312691979400B5EE18 /* Sources */,
+				AA8A69322691979400B5EE18 /* Frameworks */,
+				AA8A69332691979400B5EE18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuthorizationApp;
+			productName = AuthorizationApp;
+			productReference = AA8A69352691979400B5EE18 /* AuthorizationApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA8A692D2691979400B5EE18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					AA8A69342691979400B5EE18 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = AA8A69302691979400B5EE18 /* Build configuration list for PBXProject "AuthorizationApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA8A692C2691979400B5EE18;
+			productRefGroup = AA8A69362691979400B5EE18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA8A69342691979400B5EE18 /* AuthorizationApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA8A69332691979400B5EE18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8A695726919CC800B5EE18 /* AuthorizationViewController.xib in Resources */,
+				AA8A69482691979500B5EE18 /* LaunchScreen.storyboard in Resources */,
+				AA12A7BE2692CCDC00C79657 /* SecureCodeViewController.xib in Resources */,
+				AA8A69452691979500B5EE18 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA8A69312691979400B5EE18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8A693A2691979400B5EE18 /* AppDelegate.m in Sources */,
+				AA8A694B2691979500B5EE18 /* main.m in Sources */,
+				AA12A7BD2692CCDC00C79657 /* SecureCodeViewController.m in Sources */,
+				AAB3143826936EAC00846D42 /* UIColor+ColorExtensions.m in Sources */,
+				AA8A695626919CC800B5EE18 /* AuthorizationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA8A69462691979500B5EE18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8A69472691979500B5EE18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA8A694C2691979500B5EE18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA8A694D2691979500B5EE18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA8A694F2691979500B5EE18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28WPTMU997;
+				INFOPLIST_FILE = AuthorizationApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AuthorizationApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA8A69502691979500B5EE18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28WPTMU997;
+				INFOPLIST_FILE = AuthorizationApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AuthorizationApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA8A69302691979400B5EE18 /* Build configuration list for PBXProject "AuthorizationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8A694C2691979500B5EE18 /* Debug */,
+				AA8A694D2691979500B5EE18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8A694E2691979500B5EE18 /* Build configuration list for PBXNativeTarget "AuthorizationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8A694F2691979500B5EE18 /* Debug */,
+				AA8A69502691979500B5EE18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA8A692D2691979400B5EE18 /* Project object */;
+}
