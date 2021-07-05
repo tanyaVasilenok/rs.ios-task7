@@ -23,7 +23,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Login" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AaK-1f-Miv">
-                    <rect key="frame" x="36" y="203" width="237" height="40"/>
+                    <rect key="frame" x="36" y="203" width="303" height="40"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="b3d-s4-LQv"/>
                     </constraints>
@@ -34,7 +34,7 @@
                     </connections>
                 </textField>
                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fVG-IV-9An">
-                    <rect key="frame" x="36" y="273" width="237" height="40"/>
+                    <rect key="frame" x="36" y="273" width="303" height="40"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="7CW-Pi-nWy"/>
                     </constraints>
@@ -45,15 +45,14 @@
                     </connections>
                 </textField>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RSSchool" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rxg-G6-wTO">
-                    <rect key="frame" x="73" y="80" width="163" height="43"/>
+                    <rect key="frame" x="106" y="80" width="163" height="43"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
                     <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n7f-sE-eqM">
-                    <rect key="frame" x="110" y="373" width="89" height="42"/>
+                    <rect key="frame" x="110" y="373" width="155" height="42"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="156" id="6EW-Vp-hvn"/>
                         <constraint firstAttribute="height" constant="42" id="jEC-og-Oj0"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
@@ -71,7 +70,7 @@
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="n7f-sE-eqM" secondAttribute="trailing" constant="110" id="GUI-eM-QQa"/>
                 <constraint firstItem="fVG-IV-9An" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="36" id="JiQ-xD-itG"/>
                 <constraint firstItem="n7f-sE-eqM" firstAttribute="top" secondItem="fVG-IV-9An" secondAttribute="bottom" constant="60" id="LtP-iv-U1j"/>
-                <constraint firstItem="n7f-sE-eqM" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="110" id="SHg-EV-FgL"/>
+                <constraint firstItem="n7f-sE-eqM" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="VTL-LG-rFa"/>
                 <constraint firstItem="n7f-sE-eqM" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Y0b-6h-M6l"/>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="AaK-1f-Miv" secondAttribute="trailing" constant="36" id="clC-1D-dcW"/>
                 <constraint firstItem="Rxg-G6-wTO" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="80" id="mcI-hY-fvX"/>
